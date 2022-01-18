@@ -1,25 +1,25 @@
 class script(object):
-    START_TXT = """Heya {},
-I am <a href=https://t.me/{}>{}</a> I am a simple bot which can provide movies in your group"""
-    HELP_TXT = """heya {}
-I have the following features. Tap the button in which you want help."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
+    START_TXT = """Heya {} 🤩,
+I am <a href=https://t.me/{}>{}</a> I ᴀᴍ A Bᴏᴛ Mᴀᴅᴇ Fᴏʀ Sᴇɴᴅɪɴɢ Sᴇʀɪᴇs ᴛᴏ Yᴏᴜ. I Wᴀs Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ @muhammed_salman"""
+    HELP_TXT = """heya {} 🥴
+Tʜɪs sᴇᴄᴛɪᴏɴ ɪs ғᴏʀ ᴀᴅᴍɪɴs ᴏɴʟʏ🧞‍♂... Fᴏʀ Mᴏʀᴇ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ Bᴏss @muhammed_salman"""
+    ABOUT_TXT = """✯ 🤖 ʙᴏᴛ ɴᴀᴍᴇ: {}
+✯ 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ³ 
+✯ 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : @muhammed_salman
+✯ 🍎 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @IsaacNewtonTG
+✯ 👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @KL53MOVIES
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>Annabelle:</b>
-- Annabelle is a open source project made by <a href=https://t.me/vaishnavgr8>Vaishnav</a>. 
-- Source - <a href= https://github.com/Vaishnavofficial/Annabelle>Click here </a>
+    SOURCE_TXT = """<b>Jack sparrow:</b>
+- Jᴀᴄᴋ sᴘᴀʀʀᴏᴡ ɪs Nᴏᴛ ᴀ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ ᴍᴀᴅᴇ ʙʏ <a href=https://t.me/muhammed_salman>Muhammed Salman</a>. 
+- Sᴏᴜʀᴄᴇ - <a href= https://t.me/muhammed_salman>Source Code വേണമെങ്കിൽ പോയി കണ്ട് പിടിച്ചോ ട്ടോ 😁 </a>
 <b>Support channel:</b>
-- <a href=https://t.me/Dianasupport>Team Diana</a>"""
+- <a href=https://t.me/KL53MOVIES>Join Channel</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Annabelle will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Jack sparrow will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. Annabelle should have admin privillage.
+1. Jack sparrow should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -30,18 +30,18 @@ I have the following features. Tap the button in which you want help."""
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Annabelle Supports both url and alert inline buttons.
+- Jack sparrow Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Annabelle supports buttons with any telegram media type.
+2. Jack sparrow supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Thugbots)</code>
+<code>[Button Text](buttonurl:https://t.me/muhammed_salman)</code>
 
 <b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message from Annabelle)</code>"""
+<code>[Button Text](buttonalert:This is an alert message from Jack sparrow)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
@@ -89,11 +89,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """★ 📒 ᴛᴏᴛᴀʟ ꜰɪʟᴇs: <code>{}</code>
+★ 🍔 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
+★ 💬 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
+★ 📮 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+★ 🎪 ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
